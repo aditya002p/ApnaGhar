@@ -13,7 +13,7 @@ const About = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | About</title>
+        <title>ApnaGhar | About</title>
       </Helmet>
 
       <div
@@ -46,7 +46,7 @@ const About = () => {
                 <h1 className="mb-5 text-3xl lg:text-6xl font-bold text-white">
                   About{" "}
                   <span className="text-[#03a9fc]">
-                    <br /> Evergreen Estate
+                    <br /> ApnaGhar
                   </span>
                 </h1>
               </motion.div>

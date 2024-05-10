@@ -6,7 +6,7 @@ const LatestReview = () => {
   const [review, setReview] = useState([]);
 
   useEffect(() => {
-    fetch("https://evergreen-estate-server.vercel.app/review")
+    fetch("https://aditya002p.github.io/ApiData/review.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -32,7 +32,7 @@ const LatestReview = () => {
             <div>
               <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
             </div>
-            <p className="mb-4 text-xl text-center">Evergreen Estate</p>
+            <p className="mb-4 text-xl text-center">ApnaGhar</p>
           </div>
         </motion.div>
         <motion.div
@@ -51,8 +51,8 @@ const LatestReview = () => {
           className="flex justify-center"
         >
           <p className="mb-5 text-center lg:w-1/2">
-            Evergreen Estate offers a collection of homes that blend modern
-            comfort with timeless elegance.
+            ApnaGhar offers a collection of homes that blend modern comfort with
+            timeless elegance.
           </p>
         </motion.div>
 

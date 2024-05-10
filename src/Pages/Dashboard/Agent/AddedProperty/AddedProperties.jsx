@@ -21,7 +21,7 @@ const AddedProperties = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://evergreen-estate-server.vercel.app/properties")
+    fetch("https://aditya002p.github.io/ApiData/properties.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -67,7 +67,7 @@ const AddedProperties = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Added Property</title>
+        <title>ApnaGhar | Added Property</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

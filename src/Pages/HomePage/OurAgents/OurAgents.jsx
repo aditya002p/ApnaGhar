@@ -24,7 +24,7 @@ const OurAgents = () => {
                 <div>
                   <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                 </div>
-                <p className="mb-4 text-xl text-center">Evergreen Estate</p>
+                <p className="mb-4 text-xl text-center">ApnaGhar</p>
               </div>
             </motion.div>
             <motion.div

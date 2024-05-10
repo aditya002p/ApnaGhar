@@ -51,7 +51,7 @@ const ManageProperties = () => {
     <div className="max-w-full">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Manage Properties</title>
+        <title>ApnaGhar | Manage Properties</title>
       </Helmet>
 
       <div className="flex items-center justify-center max-w-full">

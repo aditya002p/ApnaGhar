@@ -33,7 +33,7 @@ const AdvertiseProperty = () => {
             <div>
               <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
             </div>
-            <p className="mb-4 text-xl text-center">Evergreen Estate</p>
+            <p className="mb-4 text-xl text-center">ApnaGhar</p>
           </div>
         </motion.div>
         <motion.div
@@ -53,8 +53,8 @@ const AdvertiseProperty = () => {
         >
           <p className="mb-5 text-center lg:w-1/2">
             Explore a diverse range of exquisite properties designed to cater to
-            every lifestyle. Evergreen Estate offers a collection of homes that
-            blend modern comfort with timeless elegance.
+            every lifestyle. ApnaGhar offers a collection of homes that blend
+            modern comfort with timeless elegance.
           </p>
         </motion.div>
 

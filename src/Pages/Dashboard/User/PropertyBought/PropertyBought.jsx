@@ -9,7 +9,7 @@ const PropertyBought = () => {
 
   const [property, setProperty] = useState([]);
   useEffect(() => {
-    fetch("https://evergreen-estate-server.vercel.app/offeredAmount")
+    fetch("https://aditya002p.github.io/ApiData/offeredAmount.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -26,7 +26,7 @@ const PropertyBought = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Property Bought</title>
+        <title>ApnaGhar | Property Bought</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

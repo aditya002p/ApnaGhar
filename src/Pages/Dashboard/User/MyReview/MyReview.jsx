@@ -12,7 +12,7 @@ const MyReview = () => {
     queryKey: ["reviews"],
     queryFn: async () => {
       const res = await fetch(
-        "https://evergreen-estate-server.vercel.app/review"
+        "https://aditya002p.github.io/ApiData/review.json"
       );
       return res.json();
     },
@@ -39,7 +39,7 @@ const MyReview = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://evergreen-estate-server.vercel.app/review/${_id}`, {
+        fetch(`https://aditya002p.github.io/ApiData/review.json/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -62,7 +62,7 @@ const MyReview = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | My Reviews</title>
+        <title>ApnaGhar | My Reviews</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

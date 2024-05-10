@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Home</title>
+        <title>ApnaGhar | Home</title>
       </Helmet>
 
       <div>

@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Evergreen Estate</h1>
+      <h1>ApnaGhar</h1>
     </>
   );
 }

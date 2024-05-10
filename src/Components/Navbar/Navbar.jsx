@@ -176,7 +176,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </div>
             <div className="flex items-center">
               <p className="text-sm md:text-2xl font-extrabold">
-                Evergreen <span className="text-[#03a9fc]">Estate</span>
+                Apna <span className="text-[#03a9fc]">Ghar</span>
               </p>
             </div>
           </div>

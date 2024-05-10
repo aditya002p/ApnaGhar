@@ -83,7 +83,7 @@ const ManageAdvertise = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Manage Advertise</title>
+        <title>ApnaGhar | Manage Advertise</title>
       </Helmet>
 
       <div className="container mx-auto px-5 ">

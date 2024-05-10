@@ -66,7 +66,7 @@ const MakeOffer = () => {
 
     console.log(addPropertyInfo);
 
-    fetch("https://evergreen-estate-server.vercel.app/offeredAmount", {
+    fetch("https://aditya002p.github.io/ApiData/offeredAmount.json", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -94,7 +94,7 @@ const MakeOffer = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Make An Offer</title>
+        <title>ApnaGhar | Make An Offer</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

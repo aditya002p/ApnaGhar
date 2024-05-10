@@ -59,7 +59,7 @@ const RequestedProperties = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Requested Property</title>
+        <title>ApnaGhar | Requested Property</title>
       </Helmet>
 
       <div className="flex items-center justify-center">

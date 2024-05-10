@@ -10,7 +10,7 @@ const Payment = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Payment</title>
+        <title>ApnaGhar | Payment</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

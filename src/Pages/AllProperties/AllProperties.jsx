@@ -79,7 +79,7 @@ const AllProperties = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | All Properties</title>
+        <title>ApnaGhar | All Properties</title>
       </Helmet>
       <div>
         <Swiper
@@ -109,9 +109,7 @@ const AllProperties = () => {
                         <div className="flex">
                           <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                         </div>
-                        <p className="mb-4 text-xl text-white">
-                          Evergreen Estate
-                        </p>
+                        <p className="mb-4 text-xl text-white">ApnaGhar</p>
                       </div>
                     </motion.div>
                     <motion.div
@@ -181,9 +179,7 @@ const AllProperties = () => {
                         <div className="flex">
                           <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                         </div>
-                        <p className="mb-4 text-xl text-white">
-                          Evergreen Estate
-                        </p>
+                        <p className="mb-4 text-xl text-white">ApnaGhar</p>
                       </div>
                     </motion.div>
                     <motion.div
@@ -254,9 +250,7 @@ const AllProperties = () => {
                         <div className="flex">
                           <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                         </div>
-                        <p className="mb-4 text-xl text-white">
-                          Evergreen Estate
-                        </p>
+                        <p className="mb-4 text-xl text-white">ApnaGhar</p>
                       </div>
                     </motion.div>
                     <motion.div

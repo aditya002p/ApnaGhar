@@ -90,7 +90,7 @@ const SignUp = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | SignUp</title>
+        <title>ApnaGhar | SignUp</title>
       </Helmet>
       <div className="flex justify-center my-12 container mx-auto px-5 py-10">
         <div className="border rounded-xl w-full md:w-3/4 lg:w-2/4 py-8">

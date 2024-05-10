@@ -28,7 +28,7 @@ const WishlistCard = ({ card, myWishlist, setMyWishlist }) => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://evergreen-estate-server.vercel.app/wishlist/${_id}`, {
+        fetch(`https://aditya002p.github.io/ApiData/wishlist.json/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

@@ -8,7 +8,7 @@ const SoldProperties = () => {
   const [totalAmount, setTotalAmount] = useState(0);
 
   useEffect(() => {
-    fetch(`https://evergreen-estate-server.vercel.app/payments`)
+    fetch(`https://aditya002p.github.io/ApiData/payments.json`)
       .then((res) => res.json())
       .then((data) => {
         const filteredProperty = data.filter(
@@ -29,7 +29,7 @@ const SoldProperties = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Sold Property</title>
+        <title>ApnaGhar | Sold Property</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

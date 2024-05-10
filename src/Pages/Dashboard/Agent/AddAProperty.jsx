@@ -53,7 +53,7 @@ const AddAProperty = () => {
       return;
     }
 
-    fetch("https://evergreen-estate-server.vercel.app/properties", {
+    fetch("https://aditya002p.github.io/ApiData/properties.json", {
       method: "POST",
       headers: {
         "content-type": "application/json",

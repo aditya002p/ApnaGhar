@@ -50,7 +50,7 @@ const ManageReview = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Manage Review</title>
+        <title>ApnaGhar | Manage Review</title>
       </Helmet>
 
       <div className="flex items-center justify-center">

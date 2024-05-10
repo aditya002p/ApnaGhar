@@ -44,7 +44,7 @@ const SwiperSliders = () => {
                     <div className="flex">
                       <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                     </div>
-                    <p className="mb-4 text-xl text-white">Evergreen Estate</p>
+                    <p className="mb-4 text-xl text-white">ApnaGhar</p>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -20 }}
@@ -97,7 +97,7 @@ const SwiperSliders = () => {
                     <div className="flex">
                       <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                     </div>
-                    <p className="mb-4 text-xl text-white">Evergreen Estate</p>
+                    <p className="mb-4 text-xl text-white">ApnaGhar</p>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -20 }}
@@ -150,7 +150,7 @@ const SwiperSliders = () => {
                     <div className="flex">
                       <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                     </div>
-                    <p className="mb-4 text-xl text-white">Evergreen Estate</p>
+                    <p className="mb-4 text-xl text-white">ApnaGhar</p>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -20 }}
@@ -202,7 +202,7 @@ const SwiperSliders = () => {
                     <div className="flex">
                       <FaGripfire className="text-2xl text-[#03a9fc]"></FaGripfire>
                     </div>
-                    <p className="mb-4 text-xl text-white">Evergreen Estate</p>
+                    <p className="mb-4 text-xl text-white">ApnaGhar</p>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -20 }}

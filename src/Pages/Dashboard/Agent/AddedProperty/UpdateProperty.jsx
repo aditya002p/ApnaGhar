@@ -56,7 +56,7 @@ const UpdateProperty = () => {
     }
 
     fetch(
-      `https://evergreen-estate-server.vercel.app/properties/${property._id}`,
+      `https://aditya002p.github.io/ApiData/properties.json/${property._id}`,
       {
         method: "PATCH",
         headers: {
@@ -87,7 +87,7 @@ const UpdateProperty = () => {
     <div className="mb-20">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Update Property</title>
+        <title>ApnaGhar | Update Property</title>
       </Helmet>
 
       <div className="flex items-center justify-center my-10">

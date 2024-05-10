@@ -99,7 +99,7 @@ const ManageUser = () => {
               };
 
               fetch(
-                `https://evergreen-estate-server.vercel.app/properties/${property._id}`,
+                `https://aditya002p.github.io/ApiData/properties.json/${property._id}`,
                 {
                   method: "PATCH",
                   headers: {
@@ -158,7 +158,7 @@ const ManageUser = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Evergreen Estate | Manage Users</title>
+        <title>ApnaGhar | Manage Users</title>
       </Helmet>
 
       <div className="mb-10 container mx-auto px-5">
