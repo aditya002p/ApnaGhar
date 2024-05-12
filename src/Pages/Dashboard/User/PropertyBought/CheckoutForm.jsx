@@ -21,7 +21,7 @@ const CheckoutForm = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch("https://aditya002p.github.io/ApiData/offeredAmount.json")
+    fetch("https://evergreen-estate-server.vercel.app/offeredAmount")
       .then((res) => res.json())
       .then((data) => {
         const item = data.find((item) => item._id === id);

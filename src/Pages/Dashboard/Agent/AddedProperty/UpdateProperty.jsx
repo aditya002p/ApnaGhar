@@ -56,7 +56,7 @@ const UpdateProperty = () => {
     }
 
     fetch(
-      `https://aditya002p.github.io/ApiData/properties.json/${property._id}`,
+      `https://evergreen-estate-server.vercel.app/properties/${property._id}`,
       {
         method: "PATCH",
         headers: {

@@ -144,9 +144,7 @@ const DashboardRoute = () => {
                 </svg>
               </label>
             </div>
-            <div className="flex-1 px-2 mx-2 text-2xl font-bold">
-              Evergreen Estate
-            </div>
+            <div className="flex-1 px-2 mx-2 text-2xl font-bold">ApnaGhar</div>
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal">
                 {/* Navbar menu content here */}

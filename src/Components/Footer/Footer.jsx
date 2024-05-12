@@ -10,9 +10,9 @@ const Footer = () => {
             <aside>
               <img className="w-20" src={logo} alt="" />
               <p className="text-sm md:text-2xl font-extrabold">
-                Food <span className="text-[#03a9fc]">Sharing</span>
+                Apna <span className="text-[#03a9fc]">Ghar</span>
               </p>
-              <p>Providing reliable tech since 2000</p>
+              <p>Providing reliable Properties since 2024</p>
             </aside>
             <nav>
               <header className="text-lg text-[#03a9fc] font-extrabold mb-4">
@@ -29,8 +29,9 @@ const Footer = () => {
               </header>
               <a className="link link-hover">About us</a>
               <a className="link link-hover">Contact</a>
-              <a className="link link-hover">Available Food</a>
-              <a className="link link-hover">Press kit</a>
+              <a className="link link-hover" href="/">
+                Available Properties
+              </a>
             </nav>
             <nav>
               <header className="text-lg text-[#03a9fc] font-extrabold mb-4">
@@ -47,7 +48,7 @@ const Footer = () => {
                 <header className="text-lg text-[#03a9fc] font-extrabold mt-4">
                   Address
                 </header>
-                <h2>Sylhet Bangladesh</h2>
+                <h2>Kapurthala,India</h2>
               </div>
             </nav>
             <div>
@@ -56,8 +57,8 @@ const Footer = () => {
               </header>
               <div className="my-1">
                 <h2 className="font-bold">Phone Number</h2>
-                <p>+880XXXXXXXXXX</p>
-                <p>+880XXXXXXXXXX</p>
+                <p>+91 6386483998</p>
+                <p>+91 8115378553</p>
               </div>
 
               <div>
@@ -70,7 +71,7 @@ const Footer = () => {
       </footer>
       <div className="bg-[#03a9fc] text-white py-5">
         <p className="text-center px-5 text-sm">
-          Copyright © 2023 - All right reserved by Ismat Jerin
+          Copyright © 2024 - All right reserved by Ismat Jerin
         </p>
       </div>
     </div>

@@ -66,7 +66,7 @@ const MakeOffer = () => {
 
     console.log(addPropertyInfo);
 
-    fetch("https://aditya002p.github.io/ApiData/offeredAmount.json", {
+    fetch("https://evergreen-estate-server.vercel.app/offeredAmount", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -46,7 +46,7 @@ const PropertyDetails = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("https://aditya002p.github.io/ApiData/review.json")
+    fetch("https://evergreen-estate-server.vercel.app/review")
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);
@@ -86,7 +86,7 @@ const PropertyDetails = () => {
       reviewDescription,
     };
 
-    fetch("https://aditya002p.github.io/ApiData/review.json", {
+    fetch("https://evergreen-estate-server.vercel.app/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",

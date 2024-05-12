@@ -21,7 +21,7 @@ const AddedProperties = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://aditya002p.github.io/ApiData/properties.json")
+    fetch("https://evergreen-estate-server.vercel.app/properties")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

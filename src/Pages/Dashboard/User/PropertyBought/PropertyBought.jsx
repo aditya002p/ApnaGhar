@@ -9,7 +9,7 @@ const PropertyBought = () => {
 
   const [property, setProperty] = useState([]);
   useEffect(() => {
-    fetch("https://aditya002p.github.io/ApiData/offeredAmount.json")
+    fetch("https://evergreen-estate-server.vercel.app/offeredAmount")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -20,7 +20,6 @@ const PropertyBought = () => {
   const boughtProperty = property.filter(
     (item) => item.email?.toLowerCase() === user?.email.toLowerCase()
   );
-  console.log(boughtProperty);
 
   return (
     <div>

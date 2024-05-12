@@ -18,12 +18,14 @@
     "@react-icons/all-files": "^4.1.0",
     "@stripe/react-stripe-js": "^2.7.1",
     "@stripe/stripe-js": "^2.4.0",
-    "@tanstack/react-query": "^5.35.1",
+    "@tanstack/react-query": "^5.35.5",
     "aos": "^2.3.4",
     "axios": "^1.6.8",
     "dark-mode-toggle": "^0.15.0",
     "dom": "^0.0.3",
+    "dotenv": "^16.4.5",
     "firebase": "^9.23.0",
+    "firebase-admin": "^12.1.0",
     "framer-motion": "^10.18.0",
     "helmet": "^7.1.0",
     "icons": "^1.0.0",
@@ -45,7 +47,8 @@
     "styled-components": "^6.1.10",
     "sweetalert2": "^11.10.8",
     "swiper": "^11.1.1",
-    "table": "^6.8.2"
+    "table": "^6.8.2",
+    "vite-plugin-pwa": "^0.20.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.1",
