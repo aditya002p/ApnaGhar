@@ -53,7 +53,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: () =>
-          fetch("https://aditya002p.github.io/ApiData/properties.json"),
+          fetch("https://evergreen-estate-server.vercel.app/properties"),
       },
       {
         path: "/contact",
@@ -102,7 +102,7 @@ const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: () =>
-          fetch("https://aditya002p.github.io/ApiData/properties.json"),
+          fetch("https://evergreen-estate-server.vercel.app/properties"),
       },
       {
         path: "manageReviews",
@@ -131,7 +131,7 @@ const router = createBrowserRouter([
         element: <UpdateProperty></UpdateProperty>,
         loader: ({ params }) =>
           fetch(
-            `https://aditya002p.github.io/ApiData/properties.json/${params.id}`
+            `https://evergreen-estate-server.vercel.app/properties/${params.id}`
           ),
       },
       {
@@ -148,7 +148,7 @@ const router = createBrowserRouter([
         path: "wishlist",
         element: <Wishlist></Wishlist>,
         loader: () =>
-          fetch("https://aditya002p.github.io/ApiData/wishlist.json"),
+          fetch("https://evergreen-estate-server.vercel.app/wishlist"),
       },
       {
         path: "myReviews",
@@ -158,7 +158,7 @@ const router = createBrowserRouter([
         path: "makeOffer/:id",
         element: <MakeOffer></MakeOffer>,
         loader: () =>
-          fetch("https://aditya002p.github.io/ApiData/wishlist.json"),
+          fetch("https://evergreen-estate-server.vercel.app/wishlist"),
       },
       {
         path: "propertyBought",
@@ -168,7 +168,7 @@ const router = createBrowserRouter([
         path: "payment/:id",
         element: <Payment></Payment>,
         loader: () =>
-          fetch("https://aditya002p.github.io/ApiData/offeredAmount.json"),
+          fetch("https://evergreen-estate-server.vercel.app/offeredAmount"),
       },
     ],
   },

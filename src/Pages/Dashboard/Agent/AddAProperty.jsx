@@ -196,7 +196,7 @@ const AddAProperty = () => {
                     type="text"
                     name="status"
                     disabled
-                    defaultValue={"Pending"}
+                    defaultValue={"Verified"}
                     className="input input-bordered"
                     required
                   />

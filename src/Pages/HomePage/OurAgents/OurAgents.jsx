@@ -79,7 +79,7 @@ const OurAgents = () => {
                 transition={{ duration: 1, delay: 0.5 }}
               >
                 <p className="mt-5 text-3xl font-bold text-center">
-                  Nick Swift
+                  Nishant Kumar Yadav
                 </p>
               </motion.div>
               <motion.div
@@ -87,9 +87,7 @@ const OurAgents = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                <p className="my-3 font-bold text-center">
-                  Chief Technology Officer
-                </p>
+                <p className="my-3 font-bold text-center">Student</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -98,7 +96,7 @@ const OurAgents = () => {
               >
                 <div className="flex justify-center gap-3">
                   <MdCall></MdCall>
-                  <p>Mobile: (865) 234-5679</p>
+                  <p>Mobile: (+91) 111-234-5679</p>
                 </div>
 
                 <div className="flex justify-center mt-5">
@@ -137,7 +135,7 @@ const OurAgents = () => {
                 transition={{ duration: 1, delay: 0.5 }}
               >
                 <p className="mt-5 text-3xl font-bold text-center">
-                  Kathaleen Myers
+                  Aman Kumar Pandey
                 </p>
               </motion.div>
               <motion.div
@@ -156,7 +154,7 @@ const OurAgents = () => {
               >
                 <div className="flex justify-center gap-3">
                   <MdCall></MdCall>
-                  <p>Mobile: (865) 234-5679</p>
+                  <p>Mobile: (+91) 112-234-5679</p>
                 </div>
 
                 <div className="flex justify-center mt-5">
@@ -195,7 +193,7 @@ const OurAgents = () => {
                 transition={{ duration: 1, delay: 0.5 }}
               >
                 <p className="mt-5 text-3xl font-bold text-center">
-                  Donald Lloyd
+                  Manish Kumar Yadav
                 </p>
               </motion.div>
               <motion.div
@@ -203,9 +201,7 @@ const OurAgents = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                <p className="my-3 font-bold text-center">
-                  Chief Analytics Officer
-                </p>
+                <p className="my-3 font-bold text-center">Student</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -214,7 +210,7 @@ const OurAgents = () => {
               >
                 <div className="flex justify-center gap-3">
                   <MdCall></MdCall>
-                  <p>Mobile: (865) 234-5679</p>
+                  <p>Mobile: (+91) 112-234-5679</p>
                 </div>
 
                 <div className="flex justify-center mt-5">
@@ -253,7 +249,7 @@ const OurAgents = () => {
                 transition={{ duration: 1, delay: 0.5 }}
               >
                 <p className="mt-5 text-3xl font-bold text-center">
-                  Amanda Reiter
+                  Aditya Kumar Pathak
                 </p>
               </motion.div>
               <motion.div
@@ -261,9 +257,7 @@ const OurAgents = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                <p className="my-3 font-bold text-center">
-                  Chief Legal Officer
-                </p>
+                <p className="my-3 font-bold text-center">Student</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -272,7 +266,7 @@ const OurAgents = () => {
               >
                 <div className="flex justify-center gap-3">
                   <MdCall></MdCall>
-                  <p>Mobile: (865) 234-5679</p>
+                  <p>Mobile: (+91) 111-234-5679</p>
                 </div>
 
                 <div className="flex justify-center mt-5">
